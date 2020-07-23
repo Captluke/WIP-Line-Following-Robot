@@ -49,6 +49,8 @@ int RightMSen = A4;
 int RightSen = A5;
 
 void setup() {
+  
+  Serial.begin(115200);
   //Motor Driver Pin Setup
   pinMode(RightEn, OUTPUT);
   pinMode(RightDir, OUTPUT);
